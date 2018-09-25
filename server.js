@@ -25,7 +25,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override')
-
+require("dotenv").config();
 
 // bring in the models
 var models = require('./models')
